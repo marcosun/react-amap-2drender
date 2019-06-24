@@ -40,7 +40,11 @@
     "fs-extra": "^8.0.1",
     "jest": "^24.8.0",
     "nodemon": "^1.19.1",
+    "react": "^16.8.6",
     "rimraf": "^2.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6"
   },
   "jest": {
     "roots": [
