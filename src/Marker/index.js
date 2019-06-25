@@ -92,7 +92,8 @@ Marker.propTypes = {
   /**
    * Callback fired when at least a marker is clicked.
    * Signature:
-   * (markers) => void
+   * (event, markers) => void
+   * event: AMap MapsEvent object.
    * markers: A list of markers that is clicked. Markers with the earlier position in the data array
    * are positioned later in the click callback. This is because markers appear later in the data
    * array are drawn later and has a higher priority when clicked.
@@ -101,7 +102,8 @@ Marker.propTypes = {
   /**
    * Double click event fired immediately after click event.
    * Signature:
-   * (markers) => void
+   * (event, markers) => void
+   * event: AMap MapsEvent object.
    * markers: A list of markers that is clicked. Markers with the earlier position in the data array
    * are positioned later in the click callback. This is because markers appear later in the data
    * array are drawn later and has a higher priority when clicked.
@@ -111,7 +113,8 @@ Marker.propTypes = {
    * Callback fired when pointer leaves the element or one of its child elements (even if
    * the pointer is still within the element).
    * Signature:
-   * (markers) => void
+   * (event, markers) => void
+   * event: AMap MapsEvent object.
    * markers: A list of markers that pointer overs. Markers with the earlier position in the data
    * array are positioned later in the mouse over callback. This is because markers appear later
    * in the data array are drawn later and has a higher priority when mouse over.
@@ -121,7 +124,8 @@ Marker.propTypes = {
    * Callback fired when pointer moves onto the element or one of its child elements (even if
    * the pointer is still within the element).
    * Signature:
-   * (markers) => void
+   * (event, markers) => void
+   * event: AMap MapsEvent object.
    * markers: A list of markers that pointer overs. Markers with the earlier position in the data
    * array are positioned later in the mouse over callback. This is because markers appear later
    * in the data array are drawn later and has a higher priority when mouse over.
