@@ -3,9 +3,9 @@
 
 
 "2drender@^1.0.0-rc.1":
-  version "1.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/2drender/-/2drender-1.0.0-rc.2.tgz#470d8445bd422de82ba706c6dbe21ada033a33ba"
-  integrity sha512-shwaOOpIb8SDtGY+aCmAtOlBAY/5Pk1To62ymq6D5QTDkr7lqqOxgFObGeLgsTZN03HiNKa93YlR2P9rt85xAw==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/2drender/-/2drender-1.0.0.tgz#a466edfc04bd8e19c5644a7b18099773780d7b79"
+  integrity sha512-gDjjiJPSuXVWRwmV0YoWNnWmey6pfE1fmf+fYT13j/d5ilnX2KafCcV1njXFwrGDHf1vQrYuR5F+yeWi0Gho/w==
   dependencies:
     mathjs "^6.0.2"
     prop-types "^15.7.2"
@@ -991,9 +991,9 @@ ajv@^6.10.0, ajv@^6.5.5, ajv@^6.9.1:
     uri-js "^4.2.2"
 
 amap-2drender@^1.0.0-rc.1:
-  version "1.0.0-rc.2"
-  resolved "https://registry.yarnpkg.com/amap-2drender/-/amap-2drender-1.0.0-rc.2.tgz#ac72471a5581042dcfa8ef09e1a2e860f11288df"
-  integrity sha512-OqqzdOuo519/Y8Jc6wsODen6QpylprUJZjWu6XI7gTw12pTpe4R9HkEzIMhv3U/2SX8IG9YBMb8jVHStqVf+xA==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/amap-2drender/-/amap-2drender-1.0.0.tgz#9a39adf9f8d7d9637bcf8bc72f14be3af4ad1e3f"
+  integrity sha512-YaSXHPB+7uRWr92HtmUYA12oO419ZcUFdDKTy1lqsW9lUGKRe3mBDoNWIy+9bCvQFqAfybeTSlwCA4GonRWOcw==
   dependencies:
     "2drender" "^1.0.0-rc.1"
     prop-types "^15.7.2"
