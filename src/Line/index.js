@@ -67,6 +67,38 @@ Line.propTypes = {
    */
   map: PropTypes.object.isRequired,
   /**
+   * Callback fired when at least a polyline is clicked.
+   * Signature:
+   * (event, lines) => void
+   * event: AMap MapsEvent object.
+   * lines: A list of lines that is clicked. Lines with the earlier position in the data array
+   * are positioned later in the click callback. This is because lines appear later in the data
+   * array are drawn later and has a higher priority when clicked.
+   */
+  onClick: PropTypes.func,
+  /**
+   * Callback fired when pointer leaves the element or one of its child elements (even if
+   * the pointer is still within the element).
+   * Signature:
+   * (event, lines) => void
+   * event: AMap MapsEvent object.
+   * lines: A list of lines that pointer overs. Lines with the earlier position in the data
+   * array are positioned later in the mouse over callback. This is because lines appear later
+   * in the data array are drawn later and has a higher priority when mouse over.
+   */
+  onMouseOut: PropTypes.func,
+  /**
+   * Callback fired when pointer moves onto the element or one of its child elements (even if
+   * the pointer is still within the element).
+   * Signature:
+   * (event, lines) => void
+   * event: AMap MapsEvent object.
+   * lines: A list of lines that pointer overs. Lines with the earlier position in the data
+   * array are positioned later in the mouse over callback. This is because lines appear later
+   * in the data array are drawn later and has a higher priority when mouse over.
+   */
+  onMouseOver: PropTypes.func,
+  /**
    * Custom layer opacity.
    */
   opacity: PropTypes.number,
