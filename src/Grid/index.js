@@ -81,6 +81,28 @@ Grid.propTypes = {
    */
   onClick: PropTypes.func,
   /**
+   * Callback fired when pointer leaves the element or one of its child elements (even if
+   * the pointer is still within the element).
+   * Signature:
+   * (event, grids) => void
+   * event: AMap MapsEvent object.
+   * grids: A list of grids that pointer overs. Grids with the earlier position in the data
+   * array are positioned later in the mouse over callback. This is because grids appear later
+   * in the data array are drawn later and has a higher priority when mouse over.
+   */
+  onMouseOut: PropTypes.func,
+  /**
+   * Callback fired when pointer moves onto the element or one of its child elements (even if
+   * the pointer is still within the element).
+   * Signature:
+   * (event, grids) => void
+   * event: AMap MapsEvent object.
+   * grids: A list of grids that pointer overs. Grids with the earlier position in the data
+   * array are positioned later in the mouse over callback. This is because grids appear later
+   * in the data array are drawn later and has a higher priority when mouse over.
+   */
+  onMouseOver: PropTypes.func,
+  /**
    * Custom layer opacity.
    * Default 1.
    */
