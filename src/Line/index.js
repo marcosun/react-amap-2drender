@@ -14,14 +14,13 @@ class Line extends React.PureComponent {
   }
 
   componentDidUpdate() {
-    this.line.config({
+    this.line.render({
       /**
        * Canvas default size is equal to map size.
        */
       ...this.props.map.getSize(),
       ...this.props,
     });
-    this.line.render();
   }
 
   componentWillUnmount() {
