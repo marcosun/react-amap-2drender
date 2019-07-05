@@ -14,14 +14,13 @@ class Grid extends React.PureComponent {
   }
 
   componentDidUpdate() {
-    this.grid.config({
+    this.grid.render({
       /**
        * Canvas default size is equal to map size.
        */
       ...this.props.map.getSize(),
       ...this.props,
     });
-    this.grid.render();
   }
 
   componentWillUnmount() {
