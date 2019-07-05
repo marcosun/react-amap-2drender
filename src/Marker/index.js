@@ -14,14 +14,13 @@ class Marker extends React.PureComponent {
   }
 
   componentDidUpdate() {
-    this.marker.config({
+    this.marker.render({
       /**
        * Canvas default size is equal to map size.
        */
       ...this.props.map.getSize(),
       ...this.props,
     });
-    this.marker.render();
   }
 
   componentWillUnmount() {
