@@ -3,10 +3,11 @@
 
 
 "2drender@^1.1.0-alpha.1":
-  version "1.1.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/2drender/-/2drender-1.1.0-alpha.3.tgz#2038f5f802908c5328fc6890541f08a63ab7a6b3"
-  integrity sha512-W/UQ9LmHa3/w34HLglCP/TLN5L+HHrZ7qPgQ7ZmPhiYFs1edGMzZR7C0LD9l26S4DPh/kQRfi29aFxfbOgnqeQ==
+  version "1.1.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/2drender/-/2drender-1.1.0-alpha.4.tgz#4383ea9f2bec4fad17e9a04a3c5edc4dd2337bfc"
+  integrity sha512-wXc4aEt4t6R6skCGJKWidqca4RJ7bQCtXLBBQ8C2zg/YXVyo9eH70Zwfa9cE0hPi924tFUxrTKEAcOmssRDwQg==
   dependencies:
+    common-tags "^1.8.0"
     mathjs "^6.0.2"
     prop-types "^15.7.2"
 
@@ -996,9 +997,9 @@ ajv@^6.10.0, ajv@^6.5.5, ajv@^6.9.1:
     uri-js "^4.2.2"
 
 amap-2drender@^1.1.0-alpha.1:
-  version "1.1.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/amap-2drender/-/amap-2drender-1.1.0-alpha.3.tgz#9b64857d5a31bbc03b5a60cf5dc205fc2da7e059"
-  integrity sha512-rxByA/f6N5E9K1rrWAbx7EZ/KYEj7iSMTDcvhUg24eN4WwaTauKsSAk5pvec/RASwNIL2vrVMNqo9wBDHWBbPw==
+  version "1.1.0-alpha.4"
+  resolved "https://registry.yarnpkg.com/amap-2drender/-/amap-2drender-1.1.0-alpha.4.tgz#be32e1630da57a57eb4baf321ae9ff02919918b9"
+  integrity sha512-ebwMZXJ9qmBSOqB7YA31e4XFMp8addN+4ZCPrJrKadvdedy/bVmHQKNeGyA0WbvoMV8cWXezYxinz3eet/otHw==
   dependencies:
     "2drender" "^1.1.0-alpha.1"
     prop-types "^15.7.2"
@@ -1515,6 +1516,11 @@ commander@^2.11.0, commander@^2.8.1, commander@~2.20.0:
   version "2.20.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha512-7j2y+40w61zy6YC2iRNpUe/NwhNyoXrYpHMrSunaMG64nRnaf96zO/KMQR4OyN/UnE5KLyEBnKHd4aG3rskjpQ==
+
+common-tags@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/common-tags/-/common-tags-1.8.0.tgz#8e3153e542d4a39e9b10554434afaaf98956a937"
+  integrity sha512-6P6g0uetGpW/sdyUy/iQQCbFF0kWVMSIVSyYz7Zgjcgh8mgw8PQzDNZeyZ5DQ2gM7LBoZPHmnjz8rUthkBG5tw==
 
 commondir@^1.0.1:
   version "1.0.1"
