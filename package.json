@@ -1,6 +1,6 @@
 {
   "name": "react-amap-2drender",
-  "version": "1.1.0-alpha.3",
+  "version": "1.1.0-alpha.4",
   "description": "React AMap 2drender",
   "main": "src/index.js",
   "scripts": {
