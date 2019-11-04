@@ -44,15 +44,23 @@ Line.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     /**
      * Line fill colour.
-     * Default transparent.
+     * Default black.
      */
-    color: PropTypes.string.isRequired,
+    color: PropTypes.string,
     /**
-     * Line path. Supports line string. i.e. [[0, 0], [10, 10], [20, 20]]
+     * Line path. Supports line string. i.e. [[lng, lat], [lng, lat], [lng, lat]] or
+     * [{lng, lat}, {lng, lat}, {lng, lat}]
      */
-    path: PropTypes.arrayOf(PropTypes.arrayOf(PropTypes.number)),
+    path: PropTypes.arrayOf(PropTypes.oneOfType([
+      PropTypes.arrayOf(PropTypes.number),
+      PropTypes.shape({
+        lat: PropTypes.number,
+        lng: PropTypes.number,
+      }),
+    ])).isRequired,
     /**
      * Line width.
+     * Default 1.
      */
     width: PropTypes.number,
   })),
